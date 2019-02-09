@@ -1,0 +1,27 @@
+{
+  "name": "PRPWNED",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "You've been pwned.",
+  "icons": { "16": "images/button_icon16.png",
+	     "48": "images/button_icon48.png",
+	     "128": "images/button_icon128.png" },
+  "permissions": ["tabs"],
+  "background": {
+    "scripts": ["hideButton.js"],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
+  "content_scripts":
+  [
+    {
+      "matches": ["https://bitbucket.org/*/pull-requests/*"],
+      "js": ["content_script.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    "images/*.png"
+  ]
+}
+

@@ -1,2 +1,4 @@
+.DS_Store
+
 # Ignore the zipped extension.
 extension.zip

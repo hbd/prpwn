@@ -1,18 +1,15 @@
-Cut the Sht
+PRPWNED
 =============
 
-![](images/demo.gif)
+![](images/screenshot.png)
 
-Chrome extension that replaces occurrance of words specified by you with other words (also) specified by you. Have fun!
+Chrome extension that removed merge buttons from PRs on Github and Bitbucket. Used to teach friendly lessons :)
 
 Installation
 ------------
 
 **Chrome**
 
-Install from the Chrome Store found [here](https://chrome.google.com/webstore/detail/cut-the-sht/bbmljkeiicolcccnoiefdhpjchncinfk?hl=en-US&authuser=4).
+Install from the Chrome Store found [here](https://chrome.google.com/webstore/detail/prpwned/jlghcipebfjpbgpbimmhpknjaljneeof).
 
 Alternatively, install the extension from source using [this](https://www.mattcutts.com/blog/how-to-install-a-chrome-extension-from-github/) guide.
-
-
-Note: This is a fork of panicsteve's hilarious [Cloud to Butt](https://github.com/panicsteve/cloud-to-butt) exntension.

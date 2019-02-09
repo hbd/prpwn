@@ -1,6 +1,6 @@
 {
   "name": "PRPWNED",
-  "version": "0.2",
+  "version": "0.3",
   "manifest_version": 2,
   "description": "You've been pwned.",
   "icons": { "16": "images/button_icon16.png",

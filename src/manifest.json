@@ -23,6 +23,16 @@
       "matches": ["https://bitbucket.org/*/pull-requests/*"],
       "js": ["bitbucket-idle.js"],
       "run_at": "document_idle"
+    },
+    {
+      "matches": ["https://github.com/*/pull/*"],
+      "js": ["github-start.js"],
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["https://github.com/*/pull/*"],
+      "js": ["github-idle.js"],
+      "run_at": "document_idle"
     }
   ],
   "web_accessible_resources": [

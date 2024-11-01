@@ -3,7 +3,7 @@ PRPWNED
 
 ![](images/screenshot.png)
 
-Chrome extension that removed merge buttons from PRs on Github and Bitbucket. Used to teach friendly lessons :)
+Chrome extension that removed merge buttons from PRs on Github and Bitbucket. For fun and mischief 
 
 Installation
 ------------
